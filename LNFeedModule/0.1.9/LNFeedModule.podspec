@@ -53,8 +53,8 @@ Pod::Spec.new do |s|
   end
   
   s.subspec 'Feature' do |feature|
-    feature.source_files = 'LNFeedModule/Classes/Feature/**/*.{h,m}'
-    feature.public_header_files = 'LNFeedModule/Classes/Feature/**/*.h'
+    feature.source_files = 'LNFeedModule/Classes/Feature/*.{h,m}'
+    feature.public_header_files = 'LNFeedModule/Classes/Feature/*.h'
     feature.subspec 'Base' do |s1|
       s1.source_files = 'LNFeedModule/Classes/Feature/Base/**/*'
       s1.public_header_files = 'LNFeedModule/Classes/Feature/Base/*.h'
